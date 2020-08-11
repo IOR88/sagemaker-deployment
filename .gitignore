@@ -3,7 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# Project related directories
+data
+cache
+
+# C ext
+ensions
 *.so
 
 # Distribution / packaging
@@ -68,7 +73,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+#.ipynb_checkpoints
 
 # pyenv
 .python-version
